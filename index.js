@@ -210,7 +210,7 @@ app.post("/getCartProduct", async function (req, res) {
         res.status(404).json("Cart item not found");
       }
     } catch (error) {
-      console.error(error);
+    
       res.status(500).json("Server error");
     }
   } else if (AlreadyAddToCartProduct) {
