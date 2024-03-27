@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require("express");
 const app = express();
 require("dotenv").config();
@@ -50,4 +50,4 @@ app.use(product);
 app.listen(3000, () => {
   console.log("connected");
 });
->>>>>>> 1c368d5d1a042c94778490d99eb5d4c24e721a18
+
